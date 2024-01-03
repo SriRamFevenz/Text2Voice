@@ -157,6 +157,7 @@ footer {
 
     .content {
         width: 90%;
+        flex-direction: column;
     }
 
     .content .listen-btn {
