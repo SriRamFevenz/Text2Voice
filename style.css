@@ -125,28 +125,27 @@ select {
 }
 
 footer {
+    font-size: 16px;
     color: #fff;
     position: fixed;
     bottom: 1rem;
     left: 10%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 16px;
-
 }
 
+ footer a {
+        margin: 0 4rem;
+    }
 
-footer a i {
-    color: #AD002F;
-    font-size: 2rem;
-}
+    footer a i {
+        color: #AD002F;
+        font-size: 2rem;
+    }
 
-footer a i:hover {
-    color: #FF4C50;
-    transition: all .3s ease-in-out;
+    footer a i:hover {
+        color: #FF4C50;
+        transition: all .3s ease-in-out;
 
-}
+    }
 
 /* **************** RESPONIVE ****************** */
 
@@ -195,9 +194,20 @@ footer a i:hover {
         left: 2.5%;
     }
 
+    footer a {
+        margin: 0 4rem;
+    }
 
     footer a i {
-        font-size: 1.5rem;
+        color: #AD002F;
+        font-size: 2rem;
     }
+
+    footer a i:hover {
+        color: #FF4C50;
+        transition: all .3s ease-in-out;
+
+    }
+
 
 }
