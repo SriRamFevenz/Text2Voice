@@ -171,9 +171,9 @@ footer {
 
     
     select {
-        margin-right: 1.5rem;
-        height: 45px;
-        padding: 0 15px;
+        margin-bottom : 2rem;
+        height:50px;
+        padding: 0 20px;
     }
 
     footer {
