@@ -169,14 +169,30 @@ footer {
         margin-right: 1rem;
     }
 
-    
+
     select {
-        margin-bottom : 2rem;
-        height:50px;
+        margin-bottom: 2rem;
+        height: 50px;
         padding: 0 20px;
     }
 
     footer {
         left: 2.5%;
     }
+
+    footer a {
+        margin: 1rem;
+    }
+
+    footer a i {
+        color: #AD002F;
+    }
+
+    footer a i:hover {
+        color: #FF4C50;
+        transition: all .3s ease-in-out;
+
+    }
+
+
 }
